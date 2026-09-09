@@ -22,6 +22,10 @@ export const routes: Routes = [
     { 
         path: "carrinho",
         component: Sobre },
+
+    { 
+        path: "login",
+        component: Sobre },
         
 
 ];
