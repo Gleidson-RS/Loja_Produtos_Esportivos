@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { TelaInicial } from './components/tela-inicial/tela-inicial';
 import { Sobre } from './components/sobre/sobre';
+//import { Carrinho } from './components/carrinho/carrinho';
 
 export const routes: Routes = [
 
