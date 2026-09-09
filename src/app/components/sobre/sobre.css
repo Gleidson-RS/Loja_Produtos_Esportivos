@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display',serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    min-height: 10px;
+}
+
+#Sobre{
+    display: flex;
+    text-align: center;
+    background-color: rgb(183, 194, 196);
+    color: rgb(197, 217, 235);
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+}
+#Sobre h3{
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    border: 2px solid #12ce2b;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: default;
+    background-color: #297046;
+}
+
+#Sobre h3:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
