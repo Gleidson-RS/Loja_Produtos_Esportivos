@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
 :root {
   --primary: #2ecc71;
   --primary-hover: #27ae60;
@@ -77,6 +83,43 @@
 
   font-weight: bold;
   cursor: pointer;
+}
+
+#login-cadastro{
+
+  #conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 25px;
+
+    font-family: Arial, sans-serif;
+}
+
+#login-cadastro span {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+#login-cadastro strong {
+    font-size: 16px;
+    color: #17221b;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#login-cadastro strong:hover {
+    color: #1cb35b;
+}
+
+#login-cadastro {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
 }
 
 /* LISTA DO MENU */
