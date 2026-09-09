@@ -4,11 +4,16 @@
   --dark: #17221b;
   --text: #333;
   --light: #ffffff;
+<<<<<<< HEAD
+=======
+  --border: #dddddd;
+>>>>>>> Gleidson
 }
 
 /* CABEÇALHO */
 #cabecalho {
   width: 100%;
+<<<<<<< HEAD
   height: 120px;
   margin: 0 auto;
   padding: 0 50px;
@@ -21,6 +26,14 @@
   border-bottom: 4px solid var(--primary);
 
   box-sizing: border-box;
+=======
+  min-height: 170px;
+  padding: 20px 8%;
+  box-sizing: border-box;
+
+  background-color: white;
+  border-bottom: 4px solid #2ecc71;
+>>>>>>> Gleidson
 }
 
 /* LOGO */
@@ -28,6 +41,7 @@
   display: flex;
   align-items: center;
 
+<<<<<<< HEAD
   font-size: 32px;
   font-weight: bold;
   color: var(--primary);
@@ -48,10 +62,28 @@
 
   text-transform: uppercase;
   letter-spacing: 1px;
+=======
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+
+  color: #2ecc71;
+}
+
+#titulo-logo {
+  margin-left: 8px;
+
+  padding: 6px;
+  border: solid #27ae60;
+  color: #17221b;
+  font-size: 24px;
+  font-weight: 700;
+>>>>>>> Gleidson
 }
 
 /* MENU */
 #menu {
+<<<<<<< HEAD
   width: 70%;
   height: 100%;
 }
@@ -116,4 +148,69 @@
 
 .lnk-menu:hover::after {
   transform: scaleX(1);
+=======
+  width: 100%;
+}
+
+/* PESQUISA */
+#pesquisa {
+  display: flex;
+  width: 650px;
+  margin: 10px 0 15px;
+}
+
+#pesquisa input {
+  width: 100%;
+  height: 45px;
+
+  padding: 0 20px;
+
+  border: none;
+  border-radius: 8px 0 0 8px;
+
+  background-color: #f1f1f1;
+
+  font-size: 15px;
+  outline: none;
+}
+
+#pesquisa button {
+  width: 110px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+
+  background-color: #2ecc71;
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* LISTA DO MENU */
+#ul-menu {
+  display: flex;
+  align-items: center;
+
+  gap: 35px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.lnk-menu {
+  color: #17221b;
+  text-decoration: none;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.lnk-menu:hover {
+  color: #2ecc71;
+>>>>>>> Gleidson
 }
